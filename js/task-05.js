@@ -6,6 +6,6 @@ textInput.addEventListener('input', (event) => {
     return (spanInput.textContent = "Anonymous");
   }
 
- return spanInput.textContent = event.currentTarget.value;
+ return spanInput.textContent = event.currentTarget.value.trim();
  
 });
